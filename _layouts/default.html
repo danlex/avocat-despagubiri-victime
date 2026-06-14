@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ro' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Title, description, canonical, Open Graph, Twitter cards, JSON-LD org -->
+  {% seo %}
+
+  <!-- Geo / local SEO signals -->
+  <meta name="geo.region" content="{{ site.geo.country }}-{{ site.geo.region }}">
+  <meta name="geo.placename" content="{{ site.geo.locality }}">
+  <meta name="geo.position" content="{{ site.geo.latitude }};{{ site.geo.longitude }}">
+  <meta name="ICBM" content="{{ site.geo.latitude }}, {{ site.geo.longitude }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <a href="#top" class="back-to-top" aria-label="Înapoi sus">↑</a>
+
+  {% include structured-data.html %}
+</body>
+</html>

@@ -159,10 +159,10 @@ img { max-width: 100%; }
 .credentials li::before { content: "✓"; position: absolute; left: 0; color: $gold; font-weight: 700; }
 
 .affiliations {
-  display: flex; align-items: center; flex-wrap: wrap; gap: 22px;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 14px 22px;
   margin-top: 32px; padding-top: 26px; border-top: 1px solid $line;
 }
-.affiliations-label { color: $muted; font-weight: 600; font-size: 15px; }
+.affiliations-label { color: $muted; font-weight: 600; font-size: 15px; align-self: center; }
 .affiliations img {
   height: 56px; width: auto; opacity: .85; transition: opacity .2s ease;
 }

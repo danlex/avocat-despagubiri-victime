@@ -2,7 +2,7 @@
 layout: none
 permalink: /llms.txt
 ---
-# Cabinet de Avocat VĂRZARU ION — Avocat Despăgubiri Victime
+# Cabinet de Avocat VĂRZARU ION: Avocat Despăgubiri Victime
 
 > Cabinet de avocatură din București specializat în obținerea despăgubirilor pentru
 > victimele accidentelor rutiere. Recuperează daune materiale și daune morale și asistă
@@ -18,14 +18,14 @@ permalink: /llms.txt
 - Limbi: română, engleză, spaniolă
 
 ## Echipa
-- Ion Vărzaru — avocat în Baroul București din 2004; engleză și spaniolă
-- Maria Moraru — Facultatea de Drept Iași (1980), Baroul București din 1982; peste 38 de ani de pledoarie
-- Ștefania Ruxandra Baranga — Facultatea de Drept București; avocat în Baroul București din 2016
+- Ion Vărzaru: avocat în Baroul București din 2004; engleză și spaniolă
+- Maria Moraru: Facultatea de Drept Iași (1980), Baroul București din 1982; peste 38 de ani de pledoarie
+- Ștefania Ruxandra Baranga: Facultatea de Drept București; avocat în Baroul București din 2016
 
 ## Domenii de specializare
 - Despăgubiri pentru victimele accidentelor rutiere
 - Zile de îngrijiri medicale (evaluare medico-legală a leziunilor posttraumatice)
-- Daune materiale (sume cheltuite, câștig nerealizat — acordate în măsura dovedirii)
+- Daune materiale (sume cheltuite, câștig nerealizat, acordate în măsura dovedirii)
 - Daune morale (repararea suferinței de ordin psihic)
 - Asistență și apărare penală (ucidere/vătămare din culpă, conducere fără permis sau sub influență)
 - Drept succesoral, litigii comerciale, divorț și autoritate parentală

@@ -6,11 +6,9 @@ source "https://rubygems.org"
 # Jekyll 3.x that does not run on modern Ruby.
 gem "jekyll", "~> 4.3"
 
-group :jekyll_plugins do
-  gem "jekyll-sitemap"   # generates /sitemap.xml
-  gem "jekyll-seo-tag"   # canonical, Open Graph, Twitter cards, JSON-LD org
-  gem "jekyll-redirect-from"  # static redirect stubs for old (pre-rebuild) URLs
-end
+# No plugins: this is a redirect-only site. index.html and 404.html are plain
+# static files copied verbatim, so we don't need sitemap / seo-tag / redirect-from
+# (and don't want a sitemap advertising a noindex page).
 
 # Windows / JRuby timezone data (harmless elsewhere)
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -1,75 +1,13 @@
-title: "Cabinet de Avocat VĂRZARU ION"
-tagline: "Despăgubiri pentru victimele accidentelor rutiere"
-description: >-
-  Cabinet de avocatură din București specializat în obținerea despăgubirilor
-  pentru victimele accidentelor rutiere: daune materiale, daune morale și
-  evaluarea zilelor de îngrijiri medicale. Consultanță juridică gratuită.
-lang: ro
-locale: ro_RO
+# This domain is a permanent redirect to varzaru.ro.
+# index.html and 404.html are plain-HTML redirect stubs (no front matter),
+# so Jekyll copies them verbatim and every URL on this domain redirects
+# to the matching page on varzaru.ro.
+title: "Redirect to varzaru.ro"
 url: "https://avocat-despagubiri-victime.ro"
 baseurl: ""
-author: "Cabinet de Avocat VĂRZARU ION"
-logo: "/assets/images/varzaru-logo.png"
-
-# Contact details reused across the page
-contact:
-  name: "Cabinet de Avocat VĂRZARU ION"
-  lawyer: "Avocat Ion Vărzaru"
-  phone: "0788.55.00.57"
-  phone_href: "+40788550057"
-  email: "office@varzaru.ro"
-  address: "Strada Bibescu Vodă 1, Sector 4, București"
-  address_note: "reper Piața Unirii"
-  maps_url: "https://www.google.com/maps/place/Strada+Bibescu+Vod%C4%83+1,+Bucure%C8%99ti+040151/@44.4256119,26.1027565,17z"
-  maps_embed: "https://maps.google.com/maps?q=Strada%20Bibescu%20Vod%C4%83%201%2C%20Sector%204%2C%20Bucure%C8%99ti%20040151&t=&z=16&ie=UTF8&iwloc=&output=embed"
-
-# Social profiles (entity / authority signals)
-social:
-  facebook: "https://www.facebook.com/people/Cabinet-de-Avocat-Varzaru-Ion/100054661290146/"
-  instagram: "https://www.instagram.com/cabinet_de_avocat_varzaru_ion/"
-  linkedin: "https://www.linkedin.com/in/ion-varzaru-061400267/"
-
-# Geo / local business signals (SEO + GEO)
-geo:
-  locality: "București"
-  region: "B"          # ISO 3166-2 county code for Bucharest
-  region_name: "București"
-  country: "RO"
-  street: "Strada Bibescu Vodă 1, Sector 4"
-  postal: "040151"
-  latitude: 44.4256
-  longitude: 26.1028
-  area_served:
-    - "România"
-    - "București"
-    - "Uniunea Europeană"
-
-# Topics the practice is an authority on (entity signals for GEO)
-knows_about:
-  - "Despăgubiri victime accidente rutiere"
-  - "Zile de îngrijiri medicale"
-  - "Daune materiale"
-  - "Daune morale"
-  - "Vătămare corporală din culpă"
-  - "Drept succesoral"
-  - "Drept penal rutier"
-
-# Reference to the related firm site
-same_as:
-  - "https://varzaru.ro"
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-redirect-from
 
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - content/
   - vendor/
